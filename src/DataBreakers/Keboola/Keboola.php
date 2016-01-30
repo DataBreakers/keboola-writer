@@ -2,7 +2,6 @@
 
 namespace DataBreakers\Keboola;
 
-use League\Csv\Reader;
 use Symfony\Component\Yaml\Yaml;
 
 use DataBreakers\Keboola\Config;
@@ -12,6 +11,8 @@ use DataBreakers\Keboola\InteractionsTable;
 
 use DataBreakers\DataApi;
 use DataBreakers\Keboola\DataApi\ForceClient;
+
+use Exception;
 
 class Keboola {
 
