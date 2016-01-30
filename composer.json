@@ -1,0 +1,16 @@
+{
+    "name": "databreakers\\keboola-connector-docker",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/yaml": "~2.6.3",
+        "databreakers/php-data-api-client": "dev-master#a9854b56a8631b7c8192999f36af7e0230f5d580",
+        "keboola/csv": "1.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataBreakers\\Keboola\\": "src/DataBreakers/Keboola/"
+        }
+    }
+}
