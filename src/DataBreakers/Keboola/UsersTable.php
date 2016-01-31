@@ -96,7 +96,7 @@ class UsersTable extends Table {
 	 */
 	public function upload(DataApi\Client $client) {
 		if( ! is_null($this->filePath)) {
-			$batchSize = 1000;
+			$batchSize = 5000;
 			$csvFile = new CsvFile($this->filePath);
 
 			$csvFile->rewind();
